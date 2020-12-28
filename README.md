@@ -14,7 +14,9 @@ AES is included in the ISO/IEC 18033-3 standard. AES became effective as a U.S. 
 
 
 1.This program needs to be run for once to setup the encryption key and create the encryption file.
+
 2.After that the script is ready to encrypt or decrypt your files.
+
 3.Put the files you want to encrypt in the "Resources" folder and choose the option as per your requirement.
 
 
