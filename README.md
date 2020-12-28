@@ -1,6 +1,6 @@
 ## AES_Encryption using Python Cryptodome Module.
 
-This is the python script to encrypt your file with advanced encryption standard 256 version.
+This is the python script to encrypt your file with advanced encryption standard 256 bits Key size.
 
 The Advanced Encryption Standard (AES), also known by its original name Rijndael (Dutch pronunciation: [ˈrɛindaːl]), is a specification for the encryption of electronic data established by the U.S. National Institute of Standards and Technology (NIST) in 2001.
 
