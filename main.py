@@ -8,9 +8,11 @@ import time
 
 
 class Encryptor:
+    #initializing key
     def __init__(self, key):
         self.key = key
-
+    
+    #padding
     def pad(self, s):
         return s + b"\0" * (AES.block_size - len(s) % AES.block_size)
 
@@ -62,7 +64,7 @@ class Encryptor:
             self.decrypt_file(file_name)
 
 
-key = b'[EX\xc8\xd5\xbfI{\xa2$\x05(\xd5\x18\xbf\xc0\x85)\x10nc\x94\x02)j\xdf\xcb\xc4\x94\x9d(\x9e'
+key = b'[EX\xc8\xd5\xbfI{\xa2$\x05(\xd5\x18\xbf\xc0\x85)\x10nc\x94\x02)j\xdf\xcb\xc4\x94\x9d(\x9e'    # add your secreat key
 enc = Encryptor(key)
 clear = lambda: os.system('cls')
 
@@ -92,7 +94,7 @@ if os.path.isfile('data.txt.enc'):
         elif choice == 5:
             exit()
         else:
-            print("Please select a valid option!")
+            print("Please select a valid option from above! ")
 
 else:
     while True:
