@@ -19,4 +19,5 @@ AES is included in the ISO/IEC 18033-3 standard. AES became effective as a U.S. 
 
 
 Note : The script will encrypt/decrypt in the directory in which it is executed.
+
 Note : If you want to encrypt some files in other folders then you need to set the path for that folder and then run the script.
