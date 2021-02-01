@@ -2,12 +2,14 @@
 
 This is the python script to encrypt your file with advanced encryption standard 256 bits Key size.
 
+## Dependencies
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install cryptodome.
 
 ```bash
 pip install pycryptodome
 ```
 
+## Steps to use
 1. This program needs to be run for once to setup the encryption key and create the encryption file.
 
 2. After that the script is ready to encrypt or decrypt your files.
